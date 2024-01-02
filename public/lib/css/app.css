@@ -1,0 +1,42 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#home {
+    background-image: url('/lib/images/bg-home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 0;
+    color: black;
+    top: 50%;
+    translate: 0 -50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.owl-nav > * {
+    position: relative;
+}
+
+.owl-nav svg {
+    font-size: 32px;
+    color: white;
+}
+
+.owl-nav .owl-prev {
+    left: -64px;
+}
+
+.owl-nav .owl-next {
+    right: -64px;
+}
+
+.owl-dots {
+    display: none
+}
